@@ -1,0 +1,21 @@
+{
+  "name": "fyora-studio-ticket-bot",
+  "version": "2.2.1",
+  "private": true,
+  "description": "Fyora Studio V2 lightweight Discord ticket system",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node --max-old-space-size=320 src/index.js",
+    "check": "node --check src/index.js && node --check src/handlers.js && node --check src/store.js && node --check src/ui.js && node --check src/brand-guard.js",
+    "test": "node test/smoke.js"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "discord.js": "14.19.3",
+    "@discordjs/voice": "^0.19.0",
+    "@snazzah/davey": "^0.1.6"
+  }
+}

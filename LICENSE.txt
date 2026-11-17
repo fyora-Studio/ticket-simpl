@@ -1,0 +1,8 @@
+FYORA STUDIO — TICKET SYSTEM
+
+Copyright (c) 2026 Fyora Studio. All rights reserved.
+This project is provided for use under the Fyora Studio name. Do not remove or
+misrepresent the Fyora Studio copyright and attribution notice. You may modify
+configuration, features, and source code for your own server while retaining
+this notice. Redistribution or resale as another person's original product is
+not permitted without written permission from Fyora Studio.
